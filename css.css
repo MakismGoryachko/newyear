@@ -1,0 +1,402 @@
+ @font-face  {
+    font-family: Caviar_Dreams;
+    src: url(fonts/Philosopher_Bold.ttf)
+ }
+ @font-face{
+    font-family: Intro_Rust;
+    src: url(fonts/Intro_Rust_G_Base_2_Line.otf);
+ }
+ 
+ a{
+    text-decoration: none;
+    position: relative;
+    color: black;
+ }
+
+ body{
+    margin: 0;
+ }
+
+/*Верхний блок*/
+
+ .intro
+ {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 9pt;
+   padding: 5px;
+   background-color: rgb(34, 32, 32);
+   color: white;
+   text-align: center;
+   }
+
+/* В КАТАЛОГ */
+
+   .tocatalog{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      margin: 2%;
+   font-size: 10pt;
+   color: white;
+   text-align: right;
+   }
+   
+/* БЛОК С МЕНЮ */
+
+   .left{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     margin: 1.5%;
+      font-size: 17pt;
+      color: black;
+      text-align  : left;
+   }
+
+    .forlink{
+      text-align: right;
+   } 
+
+   .forlink a{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      margin: 3.5%;
+      font-size: 12pt;
+      color: black;
+      text-align: right;
+   }
+
+   .forlink a::before{
+     content: '';
+     bottom: 0;
+     left: 0;
+     position: absolute;
+     width: 0%;
+     height: 1px;
+     background-color: black;
+     transition: 0.5s;
+  }
+ 
+.forlink a:hover:before{
+   width: 100%;
+}
+
+.block3{
+   margin-top: 1.5%;
+   display: flex;
+}
+
+.picture{
+   margin: 0 auto;
+   height: 600px;
+   width: 100%;
+  /* margin-left: -24px; */
+  display: flex;
+}
+
+.fronttext{
+   font-family: Caviar_Dreams;
+   font-size: 45pt;
+   color: white;
+   position: absolute;
+   margin-left: 21%;
+   margin-top: 10%;
+}
+
+.fronttext2{
+   font-family: Caviar_Dreams;
+   font-size: 15pt;
+   color: white;
+   position: absolute;
+   margin-left: 23%;
+   margin-top: 17%;
+}
+
+.table{
+   width: 98%;
+   margin: 1%;
+}
+
+.button{
+   position: absolute;
+   font-size: 16px;
+   font-family: inherit;
+   color: black;
+   margin-left: 42%;
+   margin-top: 21%;
+   background: white;
+   padding: 17px 45px;
+   border-radius: 5px;
+}
+
+.button2{
+   font-size: 16px;
+   font-family: inherit;
+   color: rgb(0, 0, 0);
+   background: rgb(124, 124, 124);
+   padding: 17px 45px;
+   border-radius: 5px;
+}
+
+.button2:hover{
+   color: rgb(255, 255, 255);
+   background-color: rgb(32, 32, 32);
+   transition: .5s;
+}
+
+.forbutton2{
+   text-align: center;
+   margin: 2%;
+}
+
+.button:hover{
+   color: white;
+   background-color: rgb(24, 24, 24);
+   position: absolute;
+   transition: .5s;
+}
+ 
+.centertext{
+   font-family: Caviar_Dreams;
+   font-size: 45pt;
+   color: rgb(31, 28, 28);
+   text-align: center;
+   margin-top: 70px;
+   margin-bottom: 15px;
+}
+
+.basement{
+   padding: 2%;
+   margin-top: 2%;
+   background-color: rgb(32, 32, 32);
+   color: white;
+}
+.countdown {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.time-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: rgb(32, 32, 32);
+	font-family: sans-serif;
+	padding: 0 30px;
+	border-right: 1px solid rgb(32, 32, 32);
+	user-select: none;
+}
+
+.time-section:last-child {
+	border: none;
+}
+
+.count {
+	font-size: 50px;
+}
+
+.units {
+	font-size: 15px;
+}
+
+.info1{
+   margin-top:3%;
+   text-align: center;
+   font-family: Caviar_Dreams;
+   font-size: 40pt;
+}
+
+.info4{
+   margin-top:2%;
+   text-align: center;
+   font-family: Caviar_Dreams;
+   font-size: 40pt;
+}
+
+.info2{
+   text-align: left;
+   margin-top: 1%;
+   margin-left: 5%;
+   margin-right: 5%;
+   font-size: 16pt;
+}
+
+.info5{
+   text-align: left;
+   font-size: 12pt;
+   margin-left: 5%;
+   margin-top: 1%;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.info6{
+   text-align: left;
+   font-size: 12pt;
+   font-weight: bold;
+   margin-left: 5%;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.info3{
+   font-weight: bold;
+   text-align: center;
+   margin-top: 1%;
+   margin-left: 5%;
+   margin-right: 5%;
+   font-size: 16pt;
+}
+
+.table2{
+   width: 90%;
+} 
+.contacts{
+      text-align: right;
+}
+
+.table3{
+   align-items: center;
+   text-align: center;
+   width: 90%;
+   font-size: 15pt;
+   margin-left: 2%;
+}
+
+.cap{
+   padding: 1%;
+font-family: Intro_Rust;
+font-size: 16pt;
+}
+ 
+.date{
+   padding: 1%;
+   font-family: Intro_Rust;
+   font-size: 12pt;
+}
+
+.price{
+   align-content: center;
+   font-family: inherit;
+   padding: 5px;
+   color: rgb(255, 255, 255);
+   background: rgb(32, 32, 32);
+   border-radius: 100px 200px;
+}
+
+.number{
+   font-family: Intro_Rust;
+   text-align: center;
+   font-size: 15pt;
+   margin: 3%;
+}
+
+form {
+   letter-spacing: 1px;
+   width: 46%;
+   padding: 32px;
+   border-radius: 10px;
+   box-shadow: 0 4px 16px #ccc;
+   font-family: Intro_Rust;
+   margin-left: 28%;
+   font-size: 12pt;
+}
+
+.form-control{
+   font-family: Intro_Rust;
+   letter-spacing: 1px;
+   font-size: 7pt;
+}
+
+.pict{
+   width: 25%;
+}
+
+.about{
+   width: 80%;
+   text-align: center;
+   margin-left: 7%;
+   padding: 4%;
+}
+
+.reviews{
+   margin: 5%;
+   letter-spacing: 1px;
+   padding: 32px;
+   border-radius: 30px;
+   box-shadow: 0 4px 16px #ccc;
+   font-family: Caviar_Dreams;
+    font-size: 12pt;
+}
+
+
+.reviews2{
+   text-align: right;
+   background-color: rgb(196, 196, 196);
+   margin: 5%;
+   letter-spacing: 1px;
+   padding: 32px;
+   border-radius: 30px;
+   box-shadow: 0 4px 16px #ccc;
+   font-family: Caviar_Dreams;
+    font-size: 12pt;
+}
+
+.reviewspict{
+   margin-left: 50% ;
+   width: 40%;
+}
+
+.reviewspict1{
+   margin-left: 35% ;
+   width: 40%;
+}
+
+.reviewspict2{
+   margin-left: 20% ;
+   width: 40%;
+}
+
+.reviewspict3{
+   margin-left: 5% ;
+   width: 40%;
+}
+
+ @media screen and (max-width: 1100px)
+{
+   .fronttext{
+      margin-right: 15%;
+      text-align: center;
+      font-family: Caviar_Dreams;
+      font-size: 45pt;
+      color: white;
+      position: absolute;
+      margin-top: 10%;
+   }
+
+   .fronttext2{
+      margin-right: 15%;
+      text-align: center;
+      font-family: Caviar_Dreams;
+      font-size: 15pt;
+      color: white;
+      position: absolute;
+      margin-top: 25%;
+   }
+
+   .button{
+      position: absolute;
+      font-size: 16px;
+      font-family: inherit;
+      color: black;
+      margin-left: 42%;
+      margin-top: 35%;
+      background: white;
+      padding: 17px 45px;
+      border-radius: 5px;
+   } 
+
+}
+
+
+
+
+
+
+
+
